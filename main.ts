@@ -18,8 +18,6 @@ input.onButtonPressed(Button.A, function () {
         encender_las_leds(0, 1, 0)
     } else if (pins.digitalReadPin(DigitalPin.P1) == 1) {
         encender_las_leds(0, 0, 1)
-    } else {
-        encender_las_leds(1, 0, 0)
     }
 })
 function encender_las_leds (P0: number, P1: number, P2: number) {
@@ -98,3 +96,4 @@ basic.clearScreen()
 pins.digitalWritePin(DigitalPin.P0, 0)
 pins.digitalWritePin(DigitalPin.P1, 0)
 pins.digitalWritePin(DigitalPin.P2, 0)
+encender_las_leds(1, 0, 0)

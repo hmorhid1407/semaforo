@@ -32,7 +32,7 @@ input.onButtonPressed(Button.B, function () {
         encender_las_leds(1, 0, 0)
         basic.pause(2000)
         encender_las_leds(0, 1, 0)
-        basic.pause(2000)
+        basic.pause(1000)
         encender_las_leds(0, 0, 1)
         basic.pause(2000)
         encender_las_leds(1, 0, 0)
